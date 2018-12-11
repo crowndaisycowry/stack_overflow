@@ -101,6 +101,5 @@ for npage in range(1,PAGE):
     url = 'https://stackoverflow.com/search?page=%d&tab=Relevance&q=%s' % (npage, search)
     print('crawling page %d... ' % npage)
     spider_url(url)
-    print('test')
     break
 
